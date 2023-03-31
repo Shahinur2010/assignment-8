@@ -1,31 +1,31 @@
-.blog-container{
+.blog-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: 10px;
 }
 
-.cover-image{
+.cover-image {
     width: 100%;
     padding: 10px;
 }
 
-.author-image{
+.author-image {
     border-radius: 50%;
     width: 30%;
 }
 
-.blog-info{
+.blog-info {
     display: flex;
     gap: 30px;
 }
 
-.blog-detail{
+.blog-detail {
     display: flex;
     justify-content: space-between;
 }
 
-.blog-container h1{
+.blog-container h1 {
     padding: 5px;
-    font-size:x-large;
+    font-size: x-large;
     font-weight: 500;
 }
