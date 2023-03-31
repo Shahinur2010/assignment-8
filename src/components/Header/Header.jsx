@@ -9,7 +9,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const Header = () => {
     return (
 
-    <Navbar collapseOnSelect expand="lg" bg="white" variant="black">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container className='header-container'>
         <Navbar.Brand href="#home" className='header'>Knowledge Cafe</Navbar.Brand>
           <Nav>
@@ -20,6 +20,7 @@ const Header = () => {
             </Nav.Link>
           </Nav>
       </Container>
+      <hr/>
     </Navbar>
   );
 }

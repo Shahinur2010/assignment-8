@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Blogs.css'
 import Blog from '../Blog/Blog';
 
 const Blogs = () => {
@@ -18,8 +19,8 @@ useEffect(()=>{
     blogs.map((b,i)=> <Blog key={i} b={b} ></Blog>)
 }
             </div>
-            <div>
-
+            <div className='output'>
+            <h1>Results are here</h1>
             </div>
             
         </div>
