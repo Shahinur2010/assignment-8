@@ -21,7 +21,7 @@ const Blog = (props) => {
                     <p>{readingTime} <span onClick={() => addToBookmark(props.b)}><FontAwesomeIcon icon={faBookmark} /></span></p>
                 </div>
                 <h1>{title}</h1>
-                <p>{status}</p>
+                <p><span>{status}</span></p>
             </div>
         </div>
     );

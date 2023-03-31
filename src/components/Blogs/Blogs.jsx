@@ -14,6 +14,7 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, [])
 
+
     const addToBookmark = (b) =>{
         setBookmarks([...bookMarks, b]);
     }
@@ -27,7 +28,7 @@ const Blogs = () => {
                 }
             </div>
             <div className='output'>
-                <h5>Spent time on read :  min</h5>
+                <h5>Spent time on read :  {} min</h5>
                 <h5>Bookmarked Blogs: </h5>
                  {
                  bookMarks.map((bookMark,i)=> <Output bookMark={bookMark} key={i}></Output>)

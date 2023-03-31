@@ -5,6 +5,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header'
 import Blogs from './components/Blogs/Blogs';
+import Answers from './components/Answers/Answers';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
     <Header></Header>
     <Blogs></Blogs>
+    <Answers></Answers>
     </div>
   )
 }
