@@ -1,0 +1,40 @@
+[
+ {
+  "id": "01",
+    "coverImage":"https://media.istockphoto.com/id/1329626273/photo/global-communication-network-concept-digital-transformation-dx.jpg?s=1024x1024&w=is&k=20&c=pCfCAZeXm4A3UTwvrr8pzborMpFYpbfKkpx-BahPLqY=",
+    "authorImage":"https://images.unsplash.com/profile-1579758275216-0683d9f86b10image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+   " author":"Mr. Raju",
+    "publicationDate":"09/06/2020",
+    "readingTime":"05 min read",
+    "title":"How to get your first job as a self-taught Designer",
+    "status":"Mark as read"
+  },
+  {
+    "id": "02",
+    "coverImage":"https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "authorImage":"https://images.unsplash.com/profile-1578863360857-1482e53323f2image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+    "author":"Mrs. Setara",
+    "publicationDate":"22/11/2022",
+    "readingTime":"10 min read",
+    "title":"How to get your first job as a self-taught Lecturer",
+    "status":"Mark as read"
+  },{
+    "id": "03",
+    "coverImage":"https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2dyYW1taW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "authorImage":"https://images.unsplash.com/profile-1531311878413-7e1ed617e224?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+    "author":"Mr. Mujib",
+    "publicationDate":"15/04/2021",
+    "readingTime":"10 min read",
+    "title":"How to get your first job as a self-taught Player",
+    "status":"Mark as read"
+  },{
+    "id": "04",
+    "coverImage":"https://images.unsplash.com/photo-1590959651373-a3db0f38a961?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80",
+    "authorImage":"https://images.unsplash.com/profile-1615366524147-df84e8dcafa4image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+    "author":"Mr. Rahim",
+    "publicationDate":"30/07/2019",
+    "readingTime":"05 min read",
+    "title":"How to get your first job as a self-taught programmer",
+    "status":"Mark as read"
+  }
+]

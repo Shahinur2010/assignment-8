@@ -11,7 +11,7 @@ const Header = () => {
 
     <Navbar collapseOnSelect expand="lg" bg="white" variant="black">
       <Container className='header-container'>
-        <Navbar.Brand href="#home">Knowledge Cafe</Navbar.Brand>
+        <Navbar.Brand href="#home" className='header'>Knowledge Cafe</Navbar.Brand>
           <Nav>
             <Nav.Link href="#deets">Home</Nav.Link>
             <Nav.Link href="#deets">About</Nav.Link>
