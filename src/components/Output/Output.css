@@ -1,8 +1,10 @@
-.bk-title {
-    background-color: lightcyan;
-    padding: 10px;
+.bookMark-title {
+    background-color:whitesmoke;
+    padding: 20px;
     font-weight: 600;
-    font-size: larger;
+    font-size: large;
     text-align: center;
     margin-top: 2px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
 }

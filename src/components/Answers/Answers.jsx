@@ -11,7 +11,7 @@ const Answers = () => {
             </div>
             <div>2. useEffect is a tool that lets us interact with the outside world but not affect the rendering or performance of the component that it's in.
             </div>
-            <div>3. Validating an input while it's receiving characters is another great application for useEffect . Directly updating the DOM are some examples of side effects.
+            <div>3. Directly updating the DOM are some examples of side effects. Validating an input while it's receiving characters is another great application for useEffect. 
             </div>
             <div>4.
                 React is a JavaScript-based UI development library. Facebook and an open-source developer community run it. React basically maintains a tree for us. This tree is able to do efficient diff computations on the nodes.
