@@ -6,6 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header'
 import Blogs from './components/Blogs/Blogs';
 import Answers from './components/Answers/Answers';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 function App() {
@@ -15,6 +18,7 @@ function App() {
     <div className="App">
     <Header></Header>
     <Blogs></Blogs>
+    <ToastContainer></ToastContainer>
     <Answers></Answers>
     </div>
   )
