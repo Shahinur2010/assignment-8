@@ -1,3 +1,11 @@
 .cart-container{
     display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:576px) {
+    .cart-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
