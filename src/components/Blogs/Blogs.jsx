@@ -17,23 +17,18 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, []);
 
-   
+
     const handleSpentTime = () => {
-//         let myTime = 
-//         for(let i=0; i<blogs.length; i++)
-// {console.log(i, id)}
-            console.log(blogs[0].readingTime)
+        const updateTime = parseInt(blogs[0].readingTime);
+
+        setTime(time + updateTime);
         
-        // const updateTime = parseInt(blogs.readingTime);
-        
-        // setTime(time + updateTime);
     }
 
     const addToBookmark = (b) => {
-        const isExist = bookMarks.find(item=>item.id === b.id)
+        const isExist = bookMarks.find(item => item.id === b.id)
         if (isExist) {
             toast('already exist')
-            // return;
         }
         setBookmarks([...bookMarks, b]);
     }
@@ -47,8 +42,8 @@ const Blogs = () => {
                 }
             </div>
             <div className='output'>
-                <h5>Spent time on read : {time} min</h5>
-                <h5>Bookmarked Blogs: {bookMarks.length}</h5>
+                <div className='spent-time'>Spent time on read : {time} min</div>
+                <div className='bookmark-blog'>Bookmarked Blogs: {bookMarks.length}</div>
                 {
                     bookMarks.map((bookMark, i) => <Output bookMark={bookMark} key={i}></Output>)
                 }

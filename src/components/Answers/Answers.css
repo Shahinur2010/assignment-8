@@ -1,0 +1,12 @@
+.answer{
+    background-color:lightgrey;
+    padding: 20px;
+    font-weight: 600;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.answer h3{
+    text-decoration: underline;
+    text-align: center;
+}

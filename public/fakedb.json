@@ -5,7 +5,7 @@
     "authorImage":"https://images.unsplash.com/profile-1615366524147-df84e8dcafa4image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     "author":"Mr. Rahim",
     "publicationDate":"30/07/2019",
-    "readingTime":"05 min read",
+    "readingTime": 5,
     "title":"How to get your first job as a self-taught programmer",
     "status":"Mark as read"
   },
@@ -16,7 +16,7 @@
     "authorImage":"https://images.unsplash.com/profile-1578863360857-1482e53323f2image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     "author":"Mr. Sumon",
     "publicationDate":"22/11/2022",
-    "readingTime":"10 min read",
+    "readingTime":10,
     "title":"How to get your first job as a self-taught Lecturer",
     "status":"Mark as read"
   },
@@ -27,7 +27,7 @@
     "authorImage":"https://images.unsplash.com/profile-1531311878413-7e1ed617e224?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     "author":"Mr. Mujib",
     "publicationDate":"15/04/2021",
-    "readingTime":"10 min read",
+    "readingTime":12,
     "title":"How to get your first job as a self-taught Player",
     "status":"Mark as read"
   },
@@ -38,7 +38,7 @@
     "authorImage":"https://images.unsplash.com/profile-1579758275216-0683d9f86b10image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
     "author":"Mr. John",
     "publicationDate":"09/06/2020",
-    "readingTime":"05 min read",
+    "readingTime":6,
     "title":"How to get your first job as a self-taught Designer",
     "status":"Mark as read"
   }

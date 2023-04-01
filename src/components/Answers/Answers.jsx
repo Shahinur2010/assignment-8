@@ -1,10 +1,12 @@
 import React from 'react';
+import './Answers.css'
 
 const Answers = () => {
      
 
     return (
-        <div>
+        <div className='answer'>
+            <h3 className='title'>Answers</h3>
             <div>1. State is owned locally and the component itself updates it. Props are owned and read-only by a parent.
             </div>
             <div>2. useEffect is a tool that lets us interact with the outside world but not affect the rendering or performance of the component that it's in.

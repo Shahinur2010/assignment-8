@@ -4,7 +4,7 @@ import './Output.css'
 const Output = ({bookMark}) => {
 
     return (
-        <div>
+        <div className='bk-title'>
             {bookMark.title}
         </div>
     );

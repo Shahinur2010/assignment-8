@@ -7,6 +7,8 @@ const Blog = (props) => {
     const { coverImage, authorImage, author, publicationDate, readingTime, status, title } = props.b;
     const addToBookmark = props.addToBookmark;
     const handleSpentTime = props.handleSpentTime;
+
+    // console.log(readingTime)
     return (
         <div className='blog-container'>
             <div>
@@ -19,7 +21,7 @@ const Blog = (props) => {
                             <p>{publicationDate}</p>
                         </div>
                     </div>
-                    <p>{readingTime} <span onClick={() => addToBookmark(props.b)}><FontAwesomeIcon icon={faBookmark} /></span></p>
+                    <p>{readingTime} min read <span onClick={() => addToBookmark(props.b)}><FontAwesomeIcon icon={faBookmark}/></span></p>
                 </div>
                 <h1>{title}</h1>
                 <p><span onClick={handleSpentTime}>{status}</span></p>
