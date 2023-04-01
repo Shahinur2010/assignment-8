@@ -16,10 +16,10 @@ function App() {
 
   return (
     <div className="App">
-    <Header></Header>
-    <Blogs></Blogs>
-    <ToastContainer></ToastContainer>
-    <Answers></Answers>
+      <Header></Header>
+      <Blogs></Blogs>
+      <ToastContainer></ToastContainer>
+      <Answers></Answers>
     </div>
   )
 }

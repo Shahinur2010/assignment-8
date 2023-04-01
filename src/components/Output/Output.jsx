@@ -1,7 +1,7 @@
 import React from 'react';
 import './Output.css'
 
-const Output = ({bookMark}) => {
+const Output = ({ bookMark }) => {
 
     return (
         <div className='bk-title'>

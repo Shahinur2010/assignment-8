@@ -17,12 +17,8 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, []);
 
-
-    const handleSpentTime = () => {
-        const updateTime = parseInt(blogs[0].readingTime);
-
-        setTime(time + updateTime);
-        
+    const handleSpentTime = (readingTime) => {
+        setTime(time + readingTime);
     }
 
     const addToBookmark = (b) => {

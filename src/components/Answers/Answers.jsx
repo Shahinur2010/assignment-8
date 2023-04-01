@@ -2,7 +2,7 @@ import React from 'react';
 import './Answers.css'
 
 const Answers = () => {
-     
+
 
     return (
         <div className='answer'>

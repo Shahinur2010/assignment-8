@@ -21,10 +21,10 @@ const Blog = (props) => {
                             <p>{publicationDate}</p>
                         </div>
                     </div>
-                    <p>{readingTime} min read <span onClick={() => addToBookmark(props.b)}><FontAwesomeIcon icon={faBookmark}/></span></p>
+                    <p>{readingTime} min read <span onClick={() => addToBookmark(props.b)}><FontAwesomeIcon icon={faBookmark} /></span></p>
                 </div>
                 <h1>{title}</h1>
-                <p><span onClick={handleSpentTime}>{status}</span></p>
+                <p><span onClick={() => handleSpentTime(readingTime)}>{status}</span></p>
             </div>
         </div>
     );
